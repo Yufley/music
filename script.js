@@ -74,6 +74,11 @@ const genreRepresentatives = {
         song: "Scream Bloody Gore",
         additionalArtists: ["Cannibal Corpse", "Morbid Angel", "Obituary"]
     },
+    altHipHop: { 
+        artist: "A Tribe Called Quest", 
+        song: "Electric Relaxation",
+        additionalArtists: ["Digable Planets", "Death Grips", "Jinsang"]
+    },
     altMetal: { 
         artist: "Tool", 
         song: "Schism",
