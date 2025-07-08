@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Müzik Türü Belirleme Anketi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Başlangıç Ekranı -->
+        <div class="start-screen" id="startScreen">
+            <h1>🎵 Müzik Türü Belirleme Anketi</h1>
+            <p>15 soruluk anketimizle senin için en uygun müzik türünü ve grubunu bulalım!</p>
+            <p>Her soru 4 seçenek sunuyor ve tercihlerine göre puanlama yapılıyor.</p>
+            <button class="start-btn" onclick="startQuiz()">Anketi Başlat</button>
+        </div>
+
+        <!-- Anket Ekranı -->
+        <div class="quiz-container" id="quizContainer">
+            <div class="question-header">
+                <div class="question-number">Soru <span id="currentQuestion">1</span> / 15</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+            </div>
+
+            <div class="question-content">
+                <h2 class="question-text" id="questionText">Soru yükleniyor...</h2>
+                <div class="options-container" id="optionsContainer">
+                    <!-- Seçenekler buraya gelecek -->
+                </div>
+            </div>
+
+            <div class="navigation">
+                <button class="nav-btn" id="prevBtn" onclick="previousQuestion()" disabled>Önceki</button>
+                <button class="nav-btn next-btn" id="nextBtn" onclick="nextQuestion()" disabled>Sonraki</button>
+            </div>
+        </div>
+
+        <!-- Sonuç Ekranı -->
+        <div class="result-screen" id="resultScreen">
+            <h1>🎉 Sonuçların Hazır!</h1>
+            <div class="result-content">
+                <div class="winning-genre">
+                    <h2>Senin Müzik Türün:</h2>
+                    <div class="genre-name" id="winningGenre">-</div>
+                    <div class="genre-score">Puan: <span id="winningScore">0</span></div>
+                </div>
+                
+                <div class="main-recommendation">
+                    <h3>🎤 Önerilen Grup:</h3>
+                    <div class="main-artist" id="mainArtist">-</div>
+                    <h3>🎶 Dinlemen Gereken Şarkı:</h3>
+                    <div class="main-song" id="mainSong">-</div>
+                </div>
+
+                <div class="second-genre">
+                    <h4>İkinci tercihin:</h4>
+                    <div class="second-info">
+                        <span id="secondGenre">-</span> • <span id="secondArtist">-</span>
+                    </div>
+                </div>
+                
+                <div class="additional-artists">
+                    <h3>Diğer Önerilen Sanatçılar:</h3>
+                    <div class="artists-list" id="artistsList">
+                        <!-- Sanatçılar buraya gelecek -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="result-actions">
+                <button class="restart-btn" onclick="restartQuiz()">Tekrar Dene</button>
+                <button class="share-btn" onclick="shareResult()">Sonucu Paylaş</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
