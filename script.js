@@ -183,7 +183,7 @@ const questions = [
             },
             {
                 text: "Melankolik ve derin duygular arıyorum",
-                scores: { doom: 5, black: 4, emoRap: 5, altRock: 4, progRock: 3, indie: 3, lofi: 2, grungeRock: 4 }
+                scores: { doom: 5, black: 4, emoRap: 5, altRock: 4, progRock: 3, indie: 5, lofi: 4, grungeRock: 4 }
             },
             {
                 text: "Enerjik ve neşeli müzikler dinlemeyi tercih ederim",
@@ -242,7 +242,7 @@ const questions = [
         options: [
             {
                 text: "AAAAAAALLAHH diyip böğüren lavukların sesi gerçekten beni derinden etkiliyor",
-                scores: { death: 7, black: 5, doom: 4, heavy: 5, altMetal: 6, nuMetal: 4, grungeRock: 3 }
+                scores: { death: 5, black: 4, doom: 4, heavy: 5, altMetal: 6, nuMetal: 4, grungeRock: 3 }
             },
             {
                 text: "Güçlü ve yüksek sesli olması önemli",
@@ -288,7 +288,7 @@ const questions = [
             },
             {
                 text: "90'lar alternatif/grunge dönemi",
-                scores: { grungeRock: 7, altRock: 5, altMetal: 5, indie: 3, punkRock: 3, doom: 3, nuMetal: 3 }
+                scores: { grungeRock: 6, altRock: 5, altMetal: 5, indie: 3, punkRock: 3, doom: 3, nuMetal: 3 }
             },
             {
                 text: "2000'ler pop ve rock karışımı",
@@ -347,7 +347,7 @@ const questions = [
         options: [
             {
                 text: "Gece geç saatler",
-                scores: { black: 5, doom: 5, lofi: 5, emoRap: 4, altRock: 3, progRock: 3, grungeRock: 3, drill: 3 }
+                scores: { black: 4, doom: 4, lofi: 5, emoRap: 4, altRock: 3, progRock: 3, grungeRock: 3, drill: 3 }
             },
             {
                 text: "Sabah erken saatler",
@@ -359,7 +359,7 @@ const questions = [
             },
             {
                 text: "Akşam saatleri",
-                scores: { progMetal: 5, progRock: 3, heavy: 5, anadoluRock: 4, altMetal: 3, rnb: 3, gangstaRap: 3 }
+                scores: { progMetal: 5, progRock: 3, heavy: 5, anadoluRock: 4, altMetal: 4, rnb: 3, gangstaRap: 3 }
             }
         ]
     },
@@ -372,7 +372,7 @@ const questions = [
             },
             {
                 text: "Enstrümental kısımları dinlemek",
-                scores: { progMetal: 5, progRock: 5, heavy: 5, doom: 4, altMetal: 4, lofi: 3, hardRock: 4, grungeRock: 3 }
+                scores: { progMetal: 5, progRock: 5, heavy: 5, doom: 4, altMetal: 5, lofi: 3, hardRock: 4, grungeRock: 3 }
             },
             {
                 text: "Şarkıları enstrümansız (sadece vokal/beat) dinleyip remix yapmayı hayal etmek",
@@ -389,7 +389,7 @@ const questions = [
         options: [
             {
                 text: "مرحباً، اسمي نيغا. هل يمكننا اللقاء من فضلك؟",
-                scores: { altHipHop: 5, trap: 3, nuMetal: 4, emoRap: 4, indie: 3, altRock: 3, lofi: 4, drill: 3 }
+                scores: { altHipHop: 5, trap: 3, nuMetal: 4, emoRap: 4, indie: 3, altRock: 3, lofi: 4, drill: 3, altMetal: 4 }
             },
             {
                 text: "Toplumsal hiyerarşi içindeki herkes gibi ben de malım, beynim yok, düşünebilme yetimi yıllar önce kaybettim. Benim için ne büyük nimettir ki bunun erken farkına vardım.",
