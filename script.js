@@ -155,9 +155,9 @@ const genreRepresentatives = {
         additionalArtists: ["Beyonce", "Dua Lipa", "The Weeknd"]
     },
     hiphop: { 
-        artist: "Limp Bizkit", 
-        song: "Take a look around",
-        additionalArtists: ["Drake", "Kendrick Lamar", "Kanye West"]
+        artist: "Kanye West", 
+        song: "Brothers",
+        additionalArtists: ["Drake", "Kendrick Lamar", "Limp Bizkit"]
     },
     indie: { 
         artist: "Arctic Monkeys", 
@@ -186,11 +186,11 @@ const questions = [
             },
             {
                 text: "Enerjik ve neşeli müzikler dinlemeyi tercih ederim",
-                scores: { pop: 5, hiphop: 4, trap: 3, punkRock: 4, garageRock: 3, altMetal: 2 }
+                scores: { pop: 6, hiphop: 5, trap: 5, punkRock: 5, garageRock: 4, altMetal: 2 }
             },
             {
                 text: "Bazen sakin ve düşünceli bazen çılgınca enstürman cümbüşünün yaşandığı bir atmosfer arıyorum",
-                scores: { lofi: 1, progMetal: 6, progRock: 6, indie: 4, rnb: 3, altHipHop: 3 }
+                scores: { lofi: 3, progMetal: 6, progRock: 6, indie: 4, rnb: 3, altHipHop: 3 }
             }
         ]
     },
@@ -199,11 +199,11 @@ const questions = [
         options: [
             {
                 text: "Dehşet ötesi gitar riffleri",
-                scores: { heavy: 5, death: 4, black: 4, altMetal: 4, hardRock: 5, doom: 3 }
+                scores: { heavy: 5, death: 4, black: 3, altMetal: 4, hardRock: 4, doom: 2, nuMetal: 3 }
             },
             {
                 text: "Bas gitarın ve baterinin derinden gelen sesi",
-                scores: { nuMetal: 4, trap: 5, hiphop: 4, rnb: 3, lofi: 3, gangstaRap: 3 }
+                scores: { nuMetal: 4, trap: 5, hiphop: 4, rnb: 3, lofi: 3, gangstaRap: 3, altHipHop: 4 }
             },
             {
                 text: "Akustik gitar ve piyano",
@@ -211,7 +211,7 @@ const questions = [
             },
             {
                 text: "Elektronik sesler ve benzeri",
-                scores: { pop: 5, altHipHop: 4, progMetal: 3, trap: 4, lofi: 4, rnb: 3 }
+                scores: { pop: 5, altHipHop: 4, progMetal: 3, trap: 4, lofi: 4, rnb: 3, garageRock: 4 }
             }
         ]
     },
@@ -224,15 +224,15 @@ const questions = [
             },
             {
                 text: "Orta tempo, ritimli",
-                scores: { altRock: 5, hiphop: 5, pop: 4, garageRock: 4, altMetal: 3, indie: 3 }
+                scores: { altRock: 5, hiphop: 3, pop: 3, garageRock: 4, altMetal: 3, indie: 3, anadoluRock: 4 }
             },
             {
                 text: "Yavaş ve ağır",
-                scores: { doom: 5, progMetal: 4, progRock: 4, emoRap: 4, lofi: 3, rnb: 3 }
+                scores: { doom: 5, progRock: 4, emoRap: 4, lofi: 5, rnb: 4 }
             },
             {
                 text: "Değişken tempo, dinamik",
-                scores: { progMetal: 5, progRock: 5, altHipHop: 4, altMetal: 4, anadoluRock: 3, indie: 3 }
+                scores: { progMetal: 6, progRock: 6, altHipHop: 4, altMetal: 4, indie: 3 }
             }
         ]
     },
@@ -245,15 +245,15 @@ const questions = [
             },
             {
                 text: "Güçlü ve yüksek sesli olması önemli",
-                scores: { heavy: 5, hardRock: 5, anadoluRock: 4, altRock: 3, pop: 3, rnb: 3 }
+                scores: { heavy: 5, hardRock: 5, anadoluRock: 4, altRock: 3, pop: 3 }
             },
             {
                 text: "Melodik ve duygusal olmalı",
-                scores: { indie: 6, altRock: 5, progRock: 4, emoRap: 4, pop: 4, rnb: 5 }
+                scores: { indie: 6, altRock: 5, progRock: 4, emoRap: 4, pop: 4, rnb: 7 }
             },
             {
                 text: "Rap hip hop tarzı hızlı olsun",
-                scores: { hiphop: 7, trap: 5, gangstaRap: 5, nuMetal: 7, altHipHop: 4, emoRap: 3 }
+                scores: { hiphop: 7, trap: 5, gangstaRap: 5, altHipHop: 4, emoRap: 3 }
             }
         ]
     },
@@ -266,7 +266,7 @@ const questions = [
             },
             {
                 text: "Sosyal eleştiri ve isyan",
-                scores: { punkRock: 5, altRock: 4, gangstaRap: 4, altHipHop: 4, anadoluRock: 3, nuMetal: 3 }
+                scores: { punkRock: 7, altRock: 4, gangstaRap: 4, altHipHop: 4, anadoluRock: 3, nuMetal: 3 }
             },
             {
                 text: "Aşk ve romantik duygular",
@@ -283,11 +283,11 @@ const questions = [
         options: [
             {
                 text: "70-80'ler klasik rock dönemi",
-                scores: { hardRock: 5, heavy: 4, progRock: 5, anadoluRock: 5, doom: 3, garageRock: 3 }
+                scores: { hardRock: 5, heavy: 4, progRock: 5, anadoluRock: 5, doom: 3, garageRock: 3, altRock: 3 }
             },
             {
                 text: "90'lar alternatif/grunge dönemi",
-                scores: { grungeRock: 5, altRock: 5, altMetal: 4, indie: 3, punkRock: 3, doom: 3 }
+                scores: { grungeRock: 7, altRock: 5, altMetal: 4, indie: 3, punkRock: 3, doom: 3 }
             },
             {
                 text: "2000'ler pop ve rock karışımı",
@@ -295,7 +295,7 @@ const questions = [
             },
             {
                 text: "2010'lar sonrası modern ses",
-                scores: { trap: 5, nuMetal: 6, altHipHop: 5, lofi: 4, emoRap: 4, pop: 4 }
+                scores: { trap: 5, nuMetal: 6, altHipHop: 5, lofi: 4, emoRap: 4, pop: 3 }
             }
         ]
     },
@@ -308,7 +308,7 @@ const questions = [
             },
             {
                 text: "Enerjik ve coşkulu",
-                scores: { punkRock: 5, hardRock: 5, garageRock: 4, hiphop: 4, pop: 4, heavy: 4 }
+                scores: { punkRock: 6, hardRock: 5, garageRock: 4, hiphop: 5, pop: 5, heavy: 4 }
             },
             {
                 text: "Duygusal ve içten",
@@ -322,32 +322,31 @@ const questions = [
     },
     {
         question: "Konserde hangi deneyimi yaşamak istersin?",
-options: [
-    {
-        text: "Yer gök titreten brutal vokallerle kafa sallamak",
-        scores: { death: 5, black: 5, doom: 4, heavy: 4, altMetal: 4, progMetal: 3 }
-    },
-    {
-        text: "Kalabalığın hep bir ağızdan söylediği sözlere eşlik etmek",
-        scores: { emoRap: 5, indie: 5, altRock: 4, pop: 4, rnb: 3, anadoluRock: 3 }
-    },
-    {
-        text: "Hareketli beatlerle dans etmek",
-        scores: { hiphop: 5, trap: 5, lofi: 4, altHipHop: 4, nuMetal: 3, pop: 3 }
-    },
-    {
-        text: "Sahnedeki müzisyenleri dakikalarca sololarda izlemek mmh",
-        scores: { progRock: 5, progMetal: 5, garageRock: 4, grungeRock: 3, heavy: 3, doom: 2 }
-    }
-]
-
+        options: [
+            {
+                text: "Yer gök titreten brutal vokallerle kafa sallamak",
+                scores: { death: 4, black: 3, doom: 4, heavy: 4, altMetal: 4, progMetal: 3 }
+            },
+            {
+                text: "Kalabalığın hep bir ağızdan söylediği sözlere eşlik etmek",
+                scores: { emoRap: 5, indie: 5, altRock: 4, pop: 4, rnb: 4, anadoluRock: 3 }
+            },
+            {
+                text: "Hareketli beatlerle ortamın ruhunu yakalayıp coşmak",
+                scores: { hiphop: 6, trap: 5, lofi: 4, altHipHop: 4, nuMetal: 3, pop: 3 }
+            },
+            {
+                text: "Sahnedeki müzisyenleri dakikalarca sololarda izlemek mmh",
+                scores: { progRock: 5, progMetal: 5, garageRock: 4, grungeRock: 3, heavy: 3, doom: 2 }
+            }
+        ]
     },
     {
         question: "Hangi müzik dinleme saatini tercih edersin?",
         options: [
             {
                 text: "Gece geç saatler",
-                scores: { black: 5, doom: 5, lofi: 4, emoRap: 4, altRock: 3, progRock: 3 }
+                scores: { black: 5, doom: 5, lofi: 5, emoRap: 4, altRock: 3, progRock: 3 }
             },
             {
                 text: "Sabah erken saatler",
@@ -375,8 +374,8 @@ options: [
                 scores: { progMetal: 5, progRock: 5, heavy: 4, doom: 4, altMetal: 4, lofi: 3 }
             },
             {
-                text: "Ritime eşlik etmek",
-                scores: { trap: 5, nuMetal: 5, hiphop: 4, garageRock: 4, altHipHop: 3, rnb: 3 }
+                text: "Şarkıları enstrümansız (sadece vokal/beat) dinleyip remix yapmayı hayal etmek",
+                scores: { trap: 6, nuMetal: 5, hiphop: 4, garageRock: 4, altHipHop: 3, rnb: 3, anadoluRock: 3 }
             },
             {
                 text: "Müziğin duygusal atmosferini hissetmek",
@@ -386,25 +385,24 @@ options: [
     },
     {
         question: "2+2 kaç yapar?",
-options: [
-    {
-        text: "مرحباً، اسمي نيغا. هل يمكننا اللقاء من فضلك؟",
-        scores: { altHipHop: 5, trap: 5, lofi: 4, emoRap: 4, indie: 3, altRock: 3 }
-    },
-    {
-        text: "Toplumsal hiyerarşi içindeki herkes gibi ben de malım, beynim yok, düşünebilme yetimi yıllar önce kaybettim. Benim için ne büyük nimettir ki bunun erken farkına vardım.",
-        scores: { punkRock: 5, garageRock: 5, grungeRock: 4, hardRock: 4, doom: 4, death: 3 }
-    },
-    {
-        text: "Kardeş ne gerek var şimdi böyle sorulara, dünyanın daha büyük sorunları var",
-        scores: { progRock: 5, anadoluRock: 5, altMetal: 6, progMetal: 4, rnb: 3, black: 3 }
-    },
-    {
-        text: "Uzun uğraşlar sonucunda 4 sonucuna vardım",
-        scores: { pop: 5, hiphop: 5, altRock: 4, nuMetal: 4, altMetal: 5, heavy: 3 }
-    }
-]
-
+        options: [
+            {
+                text: "مرحباً، اسمي نيغا. هل يمكننا اللقاء من فضلك؟",
+                scores: { altHipHop: 5, trap: 5, nuMetal: 4, emoRap: 4, indie: 3, altRock: 3 }
+            },
+            {
+                text: "Toplumsal hiyerarşi içindeki herkes gibi ben de malım, beynim yok, düşünebilme yetimi yıllar önce kaybettim. Benim için ne büyük nimettir ki bunun erken farkına vardım.",
+                scores: { punkRock: 5, garageRock: 5, grungeRock: 4, hardRock: 4, doom: 4, death: 3 }
+            },
+            {
+                text: "Kardeş ne gerek var şimdi böyle sorulara, dünyanın daha büyük sorunları var",
+                scores: { progRock: 5, anadoluRock: 5, altMetal: 6, progMetal: 4, rnb: 3, black: 3, punkRock: 3 }
+            },
+            {
+                text: "Uzun uğraşlar sonucunda 4 sonucuna vardım",
+                scores: { pop: 5, hiphop: 5, altRock: 4, lofi: 3, altMetal: 5, heavy: 3 }
+            }
+        ]
     },
     {
         question: "Müzik grubunda hangi unsur daha önemli?",
@@ -418,8 +416,8 @@ options: [
                 scores: { progMetal: 5, progRock: 5, heavy: 4, death: 4, altMetal: 4, doom: 3 }
             },
             {
-                text: "Güçlü ritim seksiyonu",
-                scores: { nuMetal: 5, trap: 5, hiphop: 4, garageRock: 4, punkRock: 4, altHipHop: 3 }
+                text: "Etkileyici ve güçlü bir ritim seksiyonu bulunması. Davulcuyla bascının uyumla hareket etmesi",
+                scores: { nuMetal: 5, trap: 5, hiphop: 4, garageRock: 4, punkRock: 4, altHipHop: 3, rnb: 4 }
             },
             {
                 text: "Genel müzikal uyum olması, hatanın az olması, sesin temiz gelmesi",
@@ -428,48 +426,46 @@ options: [
         ]
     },
     {
-       question: "Hangi yolla yeni müzikler keşfetmeyi tercih edersin?",
-options: [
-    {
-        text: "Spotify önerileri ve otomatik listeler",
-        scores: { pop: 5, hiphop: 5, trap: 4, rnb: 4, altHipHop: 3, indie: 2 }
-    },
-    {
-        text: "Albüm albüm gezip kendim keşfederim",
-        scores: { progRock: 5, progMetal: 5, altRock: 4, indie: 4, altMetal: 3, doom: 3 }
-    },
-    {
-        text: "Arkadaş tavsiyesiyle dinlerim",
-        scores: { garageRock: 5, altRock: 4, indie: 4, grungeRock: 4, punkRock: 3, lofi: 3 }
-    },
-    {
-        text: "Daha az bilinen underground kaynakları takip ederim",
-        scores: { black: 5, death: 5, doom: 4, emoRap: 4, altHipHop: 4, nuMetal: 3 }
-    }
-]
-
+        question: "Hangi yolla yeni müzikler keşfetmeyi tercih edersin?",
+        options: [
+            {
+                text: "Spotify önerileri ve otomatik listeler",
+                scores: { pop: 5, hiphop: 5, trap: 4, rnb: 4, altHipHop: 3, indie: 2 }
+            },
+            {
+                text: "Albüm albüm gezip kendim keşfederim",
+                scores: { progRock: 5, progMetal: 5, altRock: 4, indie: 4, altMetal: 3, doom: 3 }
+            },
+            {
+                text: "Arkadaş tavsiyesiyle dinlerim",
+                scores: { garageRock: 5, altRock: 4, indie: 4, grungeRock: 4, punkRock: 3, lofi: 3 }
+            },
+            {
+                text: "Daha az bilinen underground kaynakları takip ederim",
+                scores: { black: 5, death: 5, doom: 4, emoRap: 4, altHipHop: 4, nuMetal: 3, rnb: 2 }
+            }
+        ]
     },
     {
         question: "Bir şarkının seni etkilemesi ve beğenmen için en önemli şey nedir?",
-options: [
-    {
-        text: "Sözlerin-müziğin anlamı ve derinliği",
-        scores: { emoRap: 5, indie: 4, altMetal: 4, altRock: 3, black: 3, rnb: 3 }
-    },
-    {
-        text: "Enstrümantal yapı ve solo performanslar",
-        scores: { progRock: 5, progMetal: 5, heavy: 4, death: 3, doom: 3, hardRock: 3 }
-    },
-    {
-        text: "Ritmik yapı beat",
-        scores: { hiphop: 6, trap: 5, drill: 4, altHipHop: 3, lofi: 3, pop: 3 }
-    },
-    {
-        text: "Hissiyat ve atmosfer, kulağa güzel gelmesi",
-        scores: { lofi: 5, anadoluRock: 4, doom: 4, nuMetal: 3, garageRock: 3, rnb: 3 }
-    }
-]
-
+        options: [
+            {
+                text: "Sözlerin-müziğin anlamı ve derinliği",
+                scores: { emoRap: 5, indie: 4, altMetal: 4, altRock: 3, black: 2, rnb: 3 }
+            },
+            {
+                text: "Enstrümantal yapı ve solo performanslar",
+                scores: { progRock: 5, progMetal: 5, heavy: 4, death: 3, doom: 3, hardRock: 3 }
+            },
+            {
+                text: "Ritmik yapı beat",
+                scores: { hiphop: 6, trap: 5, drill: 4, altHipHop: 3, lofi: 3, pop: 3 }
+            },
+            {
+                text: "Hissiyat ve atmosfer, kulağa güzel gelmesi",
+                scores: { lofi: 5, anadoluRock: 4, doom: 4, nuMetal: 3, garageRock: 3, rnb: 3 }
+            }
+        ]
     },
     {
         question: "Son soru: Müziğin hayatındaki rolü nedir?",
@@ -480,7 +476,7 @@ options: [
             },
             {
                 text: "Duygusal boşalım ve terapi",
-                scores: { emoRap: 5, doom: 5, black: 4, altMetal: 4, progMetal: 4, altRock: 3 }
+                scores: { emoRap: 5, doom: 4, black: 4, altMetal: 4, progMetal: 3, altRock: 3 }
             },
             {
                 text: "Sosyal kimlik ve topluluğu anlatan yaşamıma şekil veren şeydir",
