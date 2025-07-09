@@ -120,9 +120,9 @@ const genreRepresentatives = {
         additionalArtists: ["Barış Manço", "Erkin Koray", "Duygu Öy"]
     },
     hardRock: { 
-        artist: "AC/DC", 
-        song: "Back in Black",
-        additionalArtists: ["Led Zeppelin(jojo referance?)", "Ozzy Osbourne", "Aerosmith"]
+        artist: "Guns n Roses", 
+        song: "November Rain",
+        additionalArtists: ["Led Zeppelin(jojo referance?)", "Ozzy Osbourne", "AC/DC"]
     },
     gangstaRap: { 
         artist: "N.W.A", 
