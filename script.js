@@ -82,7 +82,7 @@ const genreRepresentatives = {
     altMetal: { 
         artist: "Tool", 
         song: "Schism",
-        additionalArtists: ["System of a Down", "Deftones", "Korn"]
+        additionalArtists: ["Three Days Grace", "Deftones", "Slipknot"]
     },
     progMetal: { 
         artist: "Opeth", 
@@ -97,7 +97,7 @@ const genreRepresentatives = {
     altRock: { 
         artist: "Nirvana", 
         song: "Heart-Shaped Box",
-        additionalArtists: ["Radiohead", "Pearl Jam", "Soundgarden"]
+        additionalArtists: ["Radiohead", "Guns n Roses", "Soundgarden"]
     },
     progRock: { 
         artist: "Pink Floyd", 
@@ -122,7 +122,7 @@ const genreRepresentatives = {
     hardRock: { 
         artist: "AC/DC", 
         song: "Back in Black",
-        additionalArtists: ["Led Zeppelin", "Deep Purple", "Aerosmith"]
+        additionalArtists: ["Led Zeppelin", "Ozzy Osbourne", "Aerosmith"]
     },
     gangstaRap: { 
         artist: "N.W.A", 
