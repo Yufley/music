@@ -1,4 +1,4 @@
-// Müzik türleri ve puanları
+
 const genreScores = {
     heavy: 0,
     doom: 0,
@@ -25,7 +25,7 @@ const genreScores = {
     rnb: 0
 };
 
-// Müzik türlerinin Türkçe isimleri
+
 const genreNames = {
     heavy: "Heavy Metal",
     doom: "Doom Metal",
@@ -52,7 +52,7 @@ const genreNames = {
     rnb: "R&B"
 };
 
-// Her müzik türü için temsili grup ve şarkı
+
 const genreRepresentatives = {
     heavy: { 
         artist: "Iron Maiden", 
@@ -171,8 +171,7 @@ const genreRepresentatives = {
     }
 };
 
-// 15 soru
-// 15 soru
+
 const questions = [
     {
         question: "Müzik dinlerken hangi ruh halinde hissedersin?",
@@ -460,7 +459,7 @@ const questions = [
             },
             {
                 text: "Ritmik yapı beat",
-                scores: { hiphop: 6, trap: 5, drill: 5, altHipHop: 3, lofi: 3, pop: 3, gangstaRap: 4, nuMetal: 3 }
+                scores: { hiphop: 7, trap: 5, drill: 5, altHipHop: 3, lofi: 3, pop: 3, gangstaRap: 4, nuMetal: 3 }
             },
             {
                 text: "Hissiyat ve atmosfer, kulağa güzel gelmesi",
@@ -490,16 +489,16 @@ const questions = [
         ]
     }
 ];
-// Anket durumu
+
 let currentQuestionIndex = 0;
 let selectedAnswers = {};
 
-// Anketi başlat
+
 function startQuiz() {
     document.getElementById('startScreen').style.display = 'none';
     document.getElementById('quizContainer').style.display = 'block';
     
-    // Skorları sıfırla
+   
     Object.keys(genreScores).forEach(genre => {
         genreScores[genre] = 0;
     });
@@ -510,7 +509,7 @@ function startQuiz() {
     showQuestion();
 }
 
-// Soruyu göster
+
 function showQuestion() {
     const question = questions[currentQuestionIndex];
     
@@ -543,21 +542,21 @@ function showQuestion() {
     updateNavigation();
 }
 
-// Seçeneği seç
+
 function selectOption(optionIndex) {
     selectedAnswers[currentQuestionIndex] = optionIndex;
     
-    // Önceki seçimi kaldır
+    
     const options = document.querySelectorAll('.option');
     options.forEach(option => option.classList.remove('selected'));
     
-    // Yeni seçimi ekle
+    
     options[optionIndex].classList.add('selected');
     
     updateNavigation();
 }
 
-// Navigasyon butonlarını güncelle
+
 function updateNavigation() {
     const prevBtn = document.getElementById('prevBtn');
     const nextBtn = document.getElementById('nextBtn');
@@ -572,7 +571,7 @@ function updateNavigation() {
     }
 }
 
-// Önceki soru
+
 function previousQuestion() {
     if (currentQuestionIndex > 0) {
         currentQuestionIndex--;
@@ -580,7 +579,7 @@ function previousQuestion() {
     }
 }
 
-// Sonraki soru
+
 function nextQuestion() {
     if (selectedAnswers[currentQuestionIndex] !== undefined) {
         if (currentQuestionIndex < questions.length - 1) {
@@ -592,7 +591,7 @@ function nextQuestion() {
     }
 }
 
-// Sonuçları hesapla
+
 function calculateResults() {
     // Skorları hesapla
     Object.keys(selectedAnswers).forEach(questionIndex => {
@@ -604,35 +603,35 @@ function calculateResults() {
         });
     });
     
-    // En yüksek skorlu türleri bul
+    
     const sortedGenres = Object.keys(genreScores).sort((a, b) => genreScores[b] - genreScores[a]);
     
     const winningGenre = sortedGenres[0];
     const secondGenre = sortedGenres[1];
     
-    // Sonuçları göster
+   
     showResults(winningGenre, secondGenre);
 }
 
-// Sonuçları göster
+
 function showResults(winningGenre, secondGenre) {
     document.getElementById('quizContainer').style.display = 'none';
     document.getElementById('resultScreen').style.display = 'block';
     
-    // Kazanan tür
+   
     document.getElementById('winningGenre').textContent = genreNames[winningGenre];
     document.getElementById('winningScore').textContent = genreScores[winningGenre];
     
-    // Ana öneri
+    
     const mainRep = genreRepresentatives[winningGenre];
     document.getElementById('mainArtist').textContent = mainRep.artist;
     document.getElementById('mainSong').textContent = mainRep.song;
     
-    // İkinci tür
+    
     document.getElementById('secondGenre').textContent = genreNames[secondGenre];
     document.getElementById('secondArtist').textContent = genreRepresentatives[secondGenre].artist;
     
-    // Ek sanatçılar
+   
     const artistsList = document.getElementById('artistsList');
     artistsList.innerHTML = '';
     
@@ -644,7 +643,7 @@ function showResults(winningGenre, secondGenre) {
     });
 }
 
-// Anketi yeniden başlat
+
 function restartQuiz() {
     document.getElementById('resultScreen').style.display = 'none';
     document.getElementById('startScreen').style.display = 'block';
