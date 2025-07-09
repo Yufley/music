@@ -60,9 +60,9 @@ const genreRepresentatives = {
         additionalArtists: ["Judas Priest", "Black Sabbath", "Metallica"]
     },
     doom: { 
-        artist: "Candlemass", 
-        song: "Solitude",
-        additionalArtists: ["My Dying Bride", "Electric Wizard", "Sleep"]
+        artist: "Black Saabbath", 
+        song: "Descending",
+        additionalArtists: ["My Dying Bride", "Candlemass", "Sleep"]
     },
     black: { 
         artist: "Mayhem", 
