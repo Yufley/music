@@ -304,7 +304,7 @@ const questions = [
         options: [
             {
                 text: "Karanlık ve kasvetli",
-                scores: { black: 5, doom: 5, death: 5, emoRap: 4, altMetal: 3, nuMetal: 3, grungeRock: 3 }
+                scores: { black: 7, doom: 5, death: 5, emoRap: 4, altMetal: 3, nuMetal: 3, grungeRock: 3 }
             },
             {
                 text: "Enerjik ve coşkulu",
@@ -325,7 +325,7 @@ const questions = [
         options: [
             {
                 text: "Yer gök titreten brutal vokallerle kafa sallamak",
-                scores: { death: 5, black: 5, doom: 4, heavy: 5, altMetal: 4, progMetal: 3, hardRock: 3, grungeRock: 1, nuMetal: 3 }
+                scores: { death: 7, black: 5, doom: 4, heavy: 5, altMetal: 4, progMetal: 3, hardRock: 3, grungeRock: 1, nuMetal: 3 }
             },
             {
                 text: "Kalabalığın hep bir ağızdan söylediği sözlere eşlik etmek",
