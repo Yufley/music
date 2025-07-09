@@ -459,7 +459,7 @@ const questions = [
             },
             {
                 text: "Ritmik yapı beat",
-                scores: { hiphop: 7, trap: 5, drill: 5, altHipHop: 3, lofi: 3, pop: 3, gangstaRap: 4, nuMetal: 3 }
+                scores: { hiphop: 5, trap: 5, drill: 5, altHipHop: 4, lofi: 3, pop: 3, gangstaRap: 4, nuMetal: 3 }
             },
             {
                 text: "Hissiyat ve atmosfer, kulağa güzel gelmesi",
