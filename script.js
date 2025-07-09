@@ -102,7 +102,7 @@ const genreRepresentatives = {
     progRock: { 
         artist: "Pink Floyd", 
         song: "Hey You",
-        additionalArtists: ["Yes", "Genesis", "King Crimson"]
+        additionalArtists: ["Yes(jojo referance?)", "Genesis", "King Crimson"]
     },
     grungeRock: { 
         artist: "Alice in Chains", 
@@ -122,7 +122,7 @@ const genreRepresentatives = {
     hardRock: { 
         artist: "AC/DC", 
         song: "Back in Black",
-        additionalArtists: ["Led Zeppelin", "Ozzy Osbourne", "Aerosmith"]
+        additionalArtists: ["Led Zeppelin(jojo referance?)", "Ozzy Osbourne", "Aerosmith"]
     },
     gangstaRap: { 
         artist: "N.W.A", 
@@ -183,7 +183,7 @@ const questions = [
             },
             {
                 text: "Melankolik ve derin duygular arıyorum",
-                scores: { doom: 5, black: 4, emoRap: 5, altRock: 4, progRock: 3, indie: 5, lofi: 4, grungeRock: 4 }
+                scores: { doom: 5, black: 4, emoRap: 5, altRock: 4, progRock: 4, indie: 5, lofi: 4, grungeRock: 4 }
             },
             {
                 text: "Enerjik ve neşeli müzikler dinlemeyi tercih ederim",
@@ -208,7 +208,7 @@ const questions = [
             },
             {
                 text: "Akustik gitar ve piyano",
-                scores: { indie: 5, altRock: 4, progRock: 4, anadoluRock: 6, lofi: 3, emoRap: 3, grungeRock: 3 }
+                scores: { indie: 5, altRock: 4, progRock: 5, anadoluRock: 6, lofi: 3, emoRap: 3, grungeRock: 3 }
             },
             {
                 text: "Elektronik sesler ve benzeri",
@@ -229,7 +229,7 @@ const questions = [
             },
             {
                 text: "Yavaş ve ağır",
-                scores: { doom: 5, progRock: 4, emoRap: 4, lofi: 5, rnb: 4, grungeRock: 3 }
+                scores: { doom: 5, progRock: 5, emoRap: 4, lofi: 5, rnb: 4, grungeRock: 3 }
             },
             {
                 text: "Değişken tempo, dinamik",
@@ -338,7 +338,7 @@ const questions = [
             },
             {
                 text: "Sahnedeki müzisyenleri dakikalarca sololarda izlemek mmh",
-                scores: { progRock: 5, progMetal: 5, garageRock: 4, grungeRock: 3, heavy: 3, doom: 2, hardRock: 4 }
+                scores: { progRock: 6, progMetal: 5, garageRock: 4, grungeRock: 3, heavy: 3, doom: 2, hardRock: 4 }
             }
         ]
     },
