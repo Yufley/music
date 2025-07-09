@@ -200,7 +200,7 @@ const questions = [
         options: [
             {
                 text: "Dehşet ötesi gitar riffleri",
-                scores: { heavy: 5, death: 4, black: 3, altMetal: 4, hardRock: 5, doom: 2, nuMetal: 3, grungeRock: 5 }
+                scores: { heavy: 6, death: 4, black: 3, altMetal: 4, hardRock: 5, doom: 2, nuMetal: 3, grungeRock: 5 }
             },
             {
                 text: "Bas gitarın ve baterinin derinden gelen sesi",
@@ -221,7 +221,7 @@ const questions = [
         options: [
             {
                 text: "Çok hızlı ve agresif",
-                scores: { death: 5, black: 5, punkRock: 5, nuMetal: 4, heavy: 4, hardRock: 3, drill: 5, gangstaRap: 3 }
+                scores: { death: 5, black: 5, punkRock: 5, nuMetal: 4, heavy: 5, hardRock: 3, drill: 5, gangstaRap: 3 }
             },
             {
                 text: "Orta tempo, ritimli",
@@ -263,7 +263,7 @@ const questions = [
         options: [
             {
                 text: "Karanlık ve felozofik temalar",
-                scores: { black: 5, doom: 5, death: 4, progMetal: 4, altMetal: 3, emoRap: 3, grungeRock: 4 }
+                scores: { black: 5, doom: 5, death: 4, progMetal: 4, altMetal: 4, emoRap: 3, grungeRock: 4 }
             },
             {
                 text: "Sosyal eleştiri ve isyan",
@@ -271,7 +271,7 @@ const questions = [
             },
             {
                 text: "Aşk ve romantik duygular",
-                scores: { pop: 5, rnb: 5, indie: 4, emoRap: 4, altRock: 3, hiphop: 2, hardRock: 2 }
+                scores: { pop: 5, rnb: 5, indie: 4, emoRap: 4, altRock: 3, hiphop: 2, hardRock: 2, garageRock: 4 }
             },
             {
                 text: "Başarı ve kendine güven",
@@ -284,19 +284,19 @@ const questions = [
         options: [
             {
                 text: "70-80'ler klasik rock dönemi",
-                scores: { hardRock: 6, heavy: 4, progRock: 5, anadoluRock: 5, doom: 3, garageRock: 3, altRock: 3 }
+                scores: { hardRock: 6, heavy: 6, progRock: 5, anadoluRock: 5, doom: 3, garageRock: 3, altRock: 3 }
             },
             {
                 text: "90'lar alternatif/grunge dönemi",
-                scores: { grungeRock: 7, altRock: 5, altMetal: 4, indie: 3, punkRock: 3, doom: 3, nuMetal: 3 }
+                scores: { grungeRock: 7, altRock: 5, altMetal: 5, indie: 3, punkRock: 3, doom: 3, nuMetal: 3 }
             },
             {
                 text: "2000'ler pop ve rock karışımı",
-                scores: { pop: 4, altRock: 5, altMetal: 5, emoRap: 3, indie: 4, garageRock: 4, nuMetal: 4 }
+                scores: { pop: 4, altRock: 4, altMetal: 5, emoRap: 3, indie: 4, garageRock: 4, nuMetal: 4, black: 3 }
             },
             {
                 text: "2010'lar sonrası modern ses",
-                scores: { trap: 5, nuMetal: 4, altHipHop: 5, lofi: 4, emoRap: 4, pop: 3, drill: 6 }
+                scores: { trap: 5, nuMetal: 6, altHipHop: 5, lofi: 4, emoRap: 4, pop: 3, drill: 6 }
             }
         ]
     },
@@ -305,15 +305,15 @@ const questions = [
         options: [
             {
                 text: "Karanlık ve kasvetli",
-                scores: { black: 5, doom: 5, death: 4, emoRap: 4, altMetal: 3, nuMetal: 3, grungeRock: 4 }
+                scores: { black: 5, doom: 5, death: 4, emoRap: 4, altMetal: 3, nuMetal: 4, grungeRock: 4 }
             },
             {
                 text: "Enerjik ve coşkulu",
-                scores: { punkRock: 6, hardRock: 5, garageRock: 4, hiphop: 5, pop: 5, heavy: 4, drill: 4 }
+                scores: { punkRock: 6, hardRock: 5, garageRock: 4, hiphop: 5, pop: 5, heavy: 6, drill: 4 }
             },
             {
                 text: "Duygusal ve içten",
-                scores: { indie: 5, altRock: 5, rnb: 4, emoRap: 4, progRock: 3, anadoluRock: 3, grungeRock: 4 }
+                scores: { indie: 5, altRock: 5, rnb: 4, emoRap: 4, progRock: 3, anadoluRock: 3, grungeRock: 4, black: 2 }
             },
             {
                 text: "Rahat ve chill",
@@ -326,7 +326,7 @@ const questions = [
         options: [
             {
                 text: "Yer gök titreten brutal vokallerle kafa sallamak",
-                scores: { death: 4, black: 3, doom: 4, heavy: 4, altMetal: 4, progMetal: 3, hardRock: 3, grungeRock: 3 }
+                scores: { death: 4, black: 4, doom: 4, heavy: 5, altMetal: 4, progMetal: 3, hardRock: 3, grungeRock: 3, nuMetal: 3 }
             },
             {
                 text: "Kalabalığın hep bir ağızdan söylediği sözlere eşlik etmek",
@@ -359,7 +359,7 @@ const questions = [
             },
             {
                 text: "Akşam saatleri",
-                scores: { progMetal: 5, progRock: 5, heavy: 4, anadoluRock: 4, altMetal: 3, rnb: 3, gangstaRap: 3 }
+                scores: { progMetal: 5, progRock: 3, heavy: 5, anadoluRock: 4, altMetal: 3, rnb: 3, gangstaRap: 3 }
             }
         ]
     },
@@ -372,7 +372,7 @@ const questions = [
             },
             {
                 text: "Enstrümental kısımları dinlemek",
-                scores: { progMetal: 5, progRock: 5, heavy: 4, doom: 4, altMetal: 4, lofi: 3, hardRock: 4, grungeRock: 3 }
+                scores: { progMetal: 5, progRock: 5, heavy: 5, doom: 4, altMetal: 4, lofi: 3, hardRock: 4, grungeRock: 3 }
             },
             {
                 text: "Şarkıları enstrümansız (sadece vokal/beat) dinleyip remix yapmayı hayal etmek",
@@ -380,7 +380,7 @@ const questions = [
             },
             {
                 text: "Müziğin duygusal atmosferini hissetmek",
-                scores: { black: 5, doom: 5, emoRap: 4, altRock: 4, indie: 4, progRock: 3, grungeRock: 4 }
+                scores: { black: 5, doom: 5, emoRap: 4, altRock: 4, indie: 4, progRock: 3, grungeRock: 4, black: 4 }
             }
         ]
     },
@@ -397,7 +397,7 @@ const questions = [
             },
             {
                 text: "Kardeş ne gerek var şimdi böyle sorulara, dünyanın daha büyük sorunları var",
-                scores: { progRock: 5, anadoluRock: 5, altMetal: 4, progMetal: 4, rnb: 3, black: 3, punkRock: 3, drill: 3 }
+                scores: { progRock: 3, anadoluRock: 5, altMetal: 4, progMetal: 4, rnb: 3, black: 3, punkRock: 3, drill: 3 }
             },
             {
                 text: "Uzun uğraşlar sonucunda 4 sonucuna vardım",
@@ -410,11 +410,11 @@ const questions = [
         options: [
             {
                 text: "Dehşet bir vokal performansı",
-                scores: { pop: 5, rnb: 5, hardRock: 5, heavy: 4, anadoluRock: 4, altRock: 3, grungeRock: 3 }
+                scores: { pop: 5, rnb: 5, hardRock: 5, heavy: 5, anadoluRock: 4, altRock: 3, grungeRock: 3, black: 4 }
             },
             {
                 text: "Teknik müzikal kabiliyet ve özellikle gitar becerisi",
-                scores: { progMetal: 5, progRock: 5, heavy: 4, death: 4, altMetal: 4, doom: 3, hardRock: 4, grungeRock: 3 }
+                scores: { progMetal: 5, progRock: 4, heavy: 4, death: 4, altMetal: 4, doom: 5, hardRock: 4, grungeRock: 3 }
             },
             {
                 text: "Etkileyici ve güçlü bir ritim seksiyonu bulunması. Davulcuyla bascının uyumla hareket etmesi",
@@ -435,7 +435,7 @@ const questions = [
             },
             {
                 text: "Albüm albüm gezip kendim keşfederim",
-                scores: { progRock: 5, progMetal: 5, altRock: 4, indie: 4, altMetal: 3, doom: 3, hardRock: 3, grungeRock: 4 }
+                scores: { progRock: 4, progMetal: 4, altRock: 4, indie: 4, altMetal: 3, doom: 3, hardRock: 3, grungeRock: 4, heavy: 3 }
             },
             {
                 text: "Arkadaş tavsiyesiyle dinlerim",
@@ -477,7 +477,7 @@ const questions = [
             },
             {
                 text: "Duygusal boşalım ve terapi",
-                scores: { emoRap: 5, doom: 4, black: 4, altMetal: 4, progMetal: 3, altRock: 3, grungeRock: 4 }
+                scores: { emoRap: 5, doom: 4, black: 4, altMetal: 4, progMetal: 3, altRock: 3, grungeRock: 4, heavy: 3 }
             },
             {
                 text: "Sosyal kimlik ve topluluğu anlatan yaşamıma şekil veren şeydir",
@@ -485,7 +485,7 @@ const questions = [
             },
             {
                 text: "Daha iyi hissetmemi sağlayan sanatsal bir deneyim",
-                scores: { progRock: 5, progMetal: 5, altHipHop: 4, indie: 4, anadoluRock: 3, altMetal: 3, lofi: 3 }
+                scores: { progRock: 4, progMetal: 5, altHipHop: 4, indie: 4, anadoluRock: 3, altMetal: 3, lofi: 3 }
             }
         ]
     }
