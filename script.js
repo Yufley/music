@@ -55,7 +55,7 @@ const genreNames = {
 // Her müzik türü için temsili grup ve şarkı
 const genreRepresentatives = {
     heavy: { 
-        artist: "Iron Maiden", 
+        artist: "Iron Maiden(not: alkolü azalt)", 
         song: "The Number of the Beast",
         additionalArtists: ["Judas Priest", "Black Sabbath", "Metallica"]
     },
