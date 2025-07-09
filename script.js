@@ -220,11 +220,11 @@ const questions = [
         options: [
             {
                 text: "Çok hızlı ve agresif",
-                scores: { death: 5, black: 5, punkRock: 5, nuMetal: 4, heavy: 5, hardRock: 4, drill: 5, gangstaRap: 3, hiphop: 3, progMetal: 3 }
+                scores: { death: 5, black: 5, punkRock: 5, nuMetal: 4, heavy: 5, hardRock: 4, drill: 5, gangstaRap: 3, hiphop: 3, progMetal: 3, altMetal: 3 }
             },
             {
                 text: "Orta tempo, ritimli",
-                scores: { altRock: 5, hiphop: 3, pop: 3, garageRock: 4, altMetal: 3, indie: 3, anadoluRock: 4, grungeRock: 3, punkRock: 3 }
+                scores: { altRock: 5, hiphop: 3, pop: 4, garageRock: 4, altMetal: 3, indie: 3, anadoluRock: 4, grungeRock: 3, punkRock: 3 }
             },
             {
                 text: "Yavaş ve ağır",
@@ -283,7 +283,7 @@ const questions = [
         options: [
             {
                 text: "70-80'ler rock dönemi",
-                scores: { hardRock: 6, heavy: 6, progRock: 5, anadoluRock: 5, doom: 3, garageRock: 3, altRock: 3, punkRock: 4 }
+                scores: { hardRock: 6, heavy: 6, progRock: 5, anadoluRock: 5, doom: 3, garageRock: 3, altRock: 3, punkRock: 4, hardRock: 4 }
             },
             {
                 text: "90'lar alternatif/grunge dönemi",
@@ -371,7 +371,7 @@ const questions = [
             },
             {
                 text: "Enstrümental kısımları dinlemek",
-                scores: { progMetal: 5, progRock: 5, heavy: 5, doom: 4, altMetal: 5, lofi: 3, hardRock: 4, grungeRock: 3, anadoluRock: 2, nuMetal: 3 }
+                scores: { progMetal: 5, progRock: 5, heavy: 5, doom: 4, altMetal: 5, lofi: 3, hardRock: 4, grungeRock: 3, anadoluRock: 2, nuMetal: 3, altMetal: 2 }
             },
             {
                 text: "Şarkıları enstrümansız (sadece vokal/beat) dinleyip remix yapmayı hayal etmek",
