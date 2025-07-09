@@ -472,7 +472,7 @@ const questions = [
         options: [
             {
                 text: "Günlük yaşamın vazgeçilmez parçası",
-                scores: { pop: 5, hiphop: 4, indie: 4, altRock: 4, rnb: 4, altMetal: 3, hardRock: 3, drill: 3 }
+                scores: { pop: 5, hiphop: 4, indie: 4, altRock: 4, rnb: 4, altMetal: 3, hardRock: 3, drill: 3, death: 3 }
             },
             {
                 text: "Duygusal boşalım ve terapi",
