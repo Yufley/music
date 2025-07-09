@@ -241,19 +241,19 @@ const questions = [
         options: [
             {
                 text: "AAAAAAALLAHH diyip böğüren lavukların sesi gerçekten beni derinden etkiliyor",
-                scores: { death: 5, black: 4, doom: 4, heavy: 5, altMetal: 6, nuMetal: 4, grungeRock: 3 }
+                scores: { death: 5, doom: 4, heavy: 5, altMetal: 6, nuMetal: 4, grungeRock: 3, black: 4 }
             },
             {
                 text: "Güçlü ve yüksek sesli olması önemli",
-                scores: { heavy: 5, hardRock: 6, anadoluRock: 4, altRock: 3, pop: 3, punkRock: 4 }
+                scores: { heavy: 5, hardRock: 6, anadoluRock: 4, altRock: 3, pop: 3, punkRock: 4, black: 2 }
             },
             {
                 text: "Melodik ve duygusal olmalı",
-                scores: { indie: 6, altRock: 5, progRock: 4, emoRap: 4, pop: 4, rnb: 7, grungeRock: 4 }
+                scores: { indie: 6, altRock: 5, progRock: 4, emoRap: 4, pop: 4, rnb: 7, grungeRock: 4, trap: 3, black: 2 }
             },
             {
                 text: "Rap hip hop tarzı hızlı olsun",
-                scores: { hiphop: 7, trap: 5, gangstaRap: 7, altHipHop: 7, emoRap: 3, drill: 6, nuMetal: 3 }
+                scores: { hiphop: 7, trap: 4, gangstaRap: 7, altHipHop: 7, emoRap: 3, drill: 6, nuMetal: 3 }
             }
         ]
     },
@@ -266,7 +266,7 @@ const questions = [
             },
             {
                 text: "Sosyal eleştiri ve isyan",
-                scores: { punkRock: 7, altRock: 4, gangstaRap: 5, altHipHop: 4, anadoluRock: 3, nuMetal: 3, drill: 4, grungeRock: 5 }
+                scores: { punkRock: 7, altRock: 4, gangstaRap: 5, altHipHop: 4, anadoluRock: 3, nuMetal: 3, drill: 4, grungeRock: 5, hiphop: 3 }
             },
             {
                 text: "Aşk ve romantik duygular",
@@ -274,7 +274,7 @@ const questions = [
             },
             {
                 text: "Başarı ve kendine güven",
-                scores: { hiphop: 6, trap: 5, gangstaRap: 4, pop: 3, nuMetal: 4, altHipHop: 6, drill: 5 }
+                scores: { hiphop: 6, trap: 6, gangstaRap: 4, pop: 3, nuMetal: 4, altHipHop: 6, drill: 5 }
             }
         ]
     },
@@ -304,11 +304,11 @@ const questions = [
         options: [
             {
                 text: "Karanlık ve kasvetli",
-                scores: { black: 5, doom: 5, death: 4, emoRap: 4, altMetal: 3, nuMetal: 4, grungeRock: 4 }
+                scores: { black: 5, doom: 5, death: 5, emoRap: 4, altMetal: 3, nuMetal: 4, grungeRock: 4 }
             },
             {
                 text: "Enerjik ve coşkulu",
-                scores: { punkRock: 6, hardRock: 5, garageRock: 4, hiphop: 5, pop: 5, heavy: 6, drill: 4 }
+                scores: { punkRock: 6, hardRock: 5, garageRock: 4, hiphop: 5, pop: 5, heavy: 6, drill: 4, death: 2 }
             },
             {
                 text: "Duygusal ve içten",
@@ -337,7 +337,7 @@ const questions = [
             },
             {
                 text: "Sahnedeki müzisyenleri dakikalarca sololarda izlemek mmh",
-                scores: { progRock: 6, progMetal: 5, garageRock: 4, grungeRock: 3, heavy: 3, doom: 2, hardRock: 4 }
+                scores: { progRock: 6, progMetal: 5, garageRock: 4, grungeRock: 3, heavy: 3, doom: 2, hardRock: 4, death: 1 }
             }
         ]
     },
@@ -346,7 +346,7 @@ const questions = [
         options: [
             {
                 text: "Gece geç saatler",
-                scores: { black: 4, doom: 4, lofi: 5, emoRap: 4, altRock: 3, progRock: 3, grungeRock: 3, drill: 3 }
+                scores: { black: 4, doom: 4, lofi: 5, emoRap: 4, altRock: 3, progRock: 3, grungeRock: 3, drill: 3, death: 2 }
             },
             {
                 text: "Sabah erken saatler",
@@ -354,7 +354,7 @@ const questions = [
             },
             {
                 text: "Öğleden sonra",
-                scores: { garageRock: 5, altRock: 4, punkRock: 4, grungeRock: 5, indie: 3, pop: 3, drill: 4 }
+                scores: { garageRock: 5, altRock: 4, punkRock: 4, grungeRock: 5, indie: 3, pop: 3, drill: 4, death: 2 }
             },
             {
                 text: "Akşam saatleri",
