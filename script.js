@@ -179,7 +179,7 @@ const questions = [
         options: [
             {
                 text: "Agresif ve güçlü hissettiren, beni bam bam yapan müzikler tercih ederim",
-                scores: { heavy: 6, doom: 4, black: 5, death: 6, hardRock: 4, nuMetal: 4, gangstaRap: 3, drill: 4 }
+                scores: { heavy: 6, doom: 4, black: 5, death: 6, hardRock: 4, nuMetal: 5, gangstaRap: 3, drill: 4 }
             },
             {
                 text: "Melankolik ve derin duygular arıyorum",
@@ -204,7 +204,7 @@ const questions = [
             },
             {
                 text: "Bas gitarın ve baterinin derinden gelen sesi",
-                scores: { nuMetal: 4, trap: 5, hiphop: 4, rnb: 3, lofi: 3, gangstaRap: 4, altHipHop: 4, drill: 5 }
+                scores: { nuMetal: 5, trap: 5, hiphop: 4, rnb: 3, lofi: 3, gangstaRap: 4, altHipHop: 4, drill: 5 }
             },
             {
                 text: "Akustik gitar ve piyano",
@@ -288,7 +288,7 @@ const questions = [
             },
             {
                 text: "90'lar alternatif/grunge dönemi",
-                scores: { grungeRock: 6, altRock: 5, altMetal: 5, indie: 3, punkRock: 3, doom: 3, nuMetal: 3 }
+                scores: { grungeRock: 6, altRock: 5, altMetal: 5, indie: 3, punkRock: 3, doom: 3, nuMetal: 4 }
             },
             {
                 text: "2000'ler pop ve rock karışımı",
