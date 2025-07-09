@@ -199,7 +199,7 @@ const questions = [
         options: [
             {
                 text: "Dehşet ötesi gitar riffleri",
-                scores: { heavy: 6, death: 4, black: 3, altMetal: 4, hardRock: 5, doom: 2, nuMetal: 3, grungeRock: 5 }
+                scores: { heavy: 6, death: 4, black: 3, altMetal: 4, hardRock: 5, doom: 2, nuMetal: 3, grungeRock: 4 }
             },
             {
                 text: "Bas gitarın ve baterinin derinden gelen sesi",
@@ -282,12 +282,12 @@ const questions = [
         question: "Belirli bir zamandaki müzik akımıyla şu an ki müzikler yer değiştiricek, hangisi gelsin?",
         options: [
             {
-                text: "70-80'ler klasik rock dönemi",
+                text: "70-80'ler rock dönemi",
                 scores: { hardRock: 6, heavy: 6, progRock: 5, anadoluRock: 5, doom: 3, garageRock: 3, altRock: 3 }
             },
             {
                 text: "90'lar alternatif/grunge dönemi",
-                scores: { grungeRock: 6, altRock: 5, altMetal: 5, indie: 3, punkRock: 3, doom: 3, nuMetal: 4 }
+                scores: { grungeRock: 5, altRock: 5, altMetal: 5, indie: 3, punkRock: 3, doom: 3, nuMetal: 4, hardRock: 2 }
             },
             {
                 text: "2000'ler pop ve rock karışımı",
